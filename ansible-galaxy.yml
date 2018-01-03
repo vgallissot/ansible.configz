@@ -1,0 +1,11 @@
+---
+
+- src: sbani.liquidprompt
+  version: v0.2.2
+  path: roles/
+  name: liquidprompt
+
+- src: https://github.com/vgallissot/ansible-role-zsh.git
+  version: master
+  path: roles/
+  name: zsh

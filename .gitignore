@@ -1,0 +1,12 @@
+*~
+*#
+.#*
+\#*#
+.*.sw[a-z]
+
+roles/*
+!/roles/.gitkeep
+cache/*
+!/cache/.gitkeep
+log/*
+!/log/.gitkeep
