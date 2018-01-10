@@ -1,0 +1,28 @@
+
+export EDITOR="vim"
+export PAGER="less"
+export VISUAL="vim"
+
+alias ll='ls -Alshrt'
+alias ls='ls --color=auto'
+alias grep='grep --colour=auto'
+alias grip='grep -Ri'
+alias grease='/usr/local/scripts/grease.sh'
+alias gg='/usr/local/scripts/git-updater.sh'
+alias s='ssh -l root'
+alias pupu='/usr/local/scripts/git-pupu.sh'
+alias ninish='/usr/local/scripts/check-varnish-puppet.sh'
+alias aa='/usr/local/scripts/ansible-requirements.sh'
+
+
+# Go compatible
+export GOPATH=~/go
+export PATH=$PATH:$GOPATH/bin
+
+umask 0022
+
+# liquidprompt
+[[ $- = *i* ]] && source /usr/local/src/liquidprompt/liquidprompt
+
+_S=$(ps -p $$ -o cmd|tail -1|cut -d "/" -f 3)
+[ -f ~/.fzf.$_S ] && source ~/.fzf.$_S
