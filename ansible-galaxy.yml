@@ -1,11 +1,16 @@
 ---
 
-- src: sbani.liquidprompt
-  version: master
-  path: roles/
-  name: liquidprompt
-
 - src: https://github.com/vgallissot/ansible-role-zsh.git
   version: master
   path: roles/
   name: zsh
+
+- src: https://github.com/sbani/ansible-role-liquidprompt # not galaxy cuz repo not up-to-date
+  version: v0.2.3
+  path: roles/
+  name: liquidprompt
+
+- src: https://github.com/vgallissot/ansible-role-lp-vg.git
+  version: v1.1
+  path: roles/
+  name: lp-vg
