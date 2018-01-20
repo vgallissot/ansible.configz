@@ -1,0 +1,12 @@
+---
+
+- name: "Configure shell"
+  hosts: all
+  gather_facts: true
+
+  roles:
+    - zsh
+    - liquidprompt # role related to bash if user-specific
+
+  tags:
+    - shell

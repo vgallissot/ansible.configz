@@ -3,10 +3,21 @@
 .#*
 \#*#
 .*.sw[a-z]
+*.un~
 
-roles/*
-!/roles/.gitkeep
-cache/*
-!/cache/.gitkeep
-log/*
-!/log/.gitkeep
+.vagrant
+.bundle/*
+
+.idea
+*.pyc
+
+*.py[co]
+.project
+.pydevproject
+.kitchen/
+
+tests/roles/
+roles/
+
+*.retry
+**/*.retry

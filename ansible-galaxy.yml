@@ -1,7 +1,7 @@
 ---
 
 - src: sbani.liquidprompt
-  version: v0.2.2
+  version: master
   path: roles/
   name: liquidprompt
 
