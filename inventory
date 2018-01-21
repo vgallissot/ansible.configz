@@ -1,1 +1,9 @@
-localhost
+---
+
+all:
+  hosts:
+    localhost
+  vars:
+    liquidprompt_path: /usr/local/src/liquidprompt
+
+# vim:ft=yaml
