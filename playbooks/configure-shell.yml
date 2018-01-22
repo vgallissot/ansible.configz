@@ -5,7 +5,7 @@
   gather_facts: true
 
   roles:
-    - zsh # includes oh-my-zsh
+    - zsh # includes oh-my-zsh + fzf
     - liquidprompt # role related to bash if user-specific
     - lp-vg # only PS1 custom theme
 

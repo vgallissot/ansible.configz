@@ -1,7 +1,7 @@
 ---
 
 - src: https://github.com/vgallissot/ansible-role-zsh.git
-  version: master
+  version: v1.0.0
   path: roles/
   name: zsh
 
