@@ -11,6 +11,6 @@
   name: liquidprompt
 
 - src: https://github.com/vgallissot/ansible-role-lp-vg.git
-  version: v1.1
+  version: v2.0
   path: roles/
   name: lp-vg
