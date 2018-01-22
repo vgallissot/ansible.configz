@@ -136,5 +136,5 @@ requirements:
 	@echo '=== Installing Python requirements'
 	if [ -a python-requirements.txt ]; then pip install -qr python-requirements.txt --exists-action w; fi;
 	@echo '=== Installing Ansible requirements'
-	if [ -a ansible-galaxy.yml ]; then ansible-galaxy install -r ansible-galaxy.yml --force ; fi;
+	if [ -a ansible-galaxy.yml ]; then ansible-galaxy install -r ansible-galaxy.yml --force --ignore-errors; fi;
 
